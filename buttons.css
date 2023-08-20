@@ -11,6 +11,13 @@
     cursor: pointer;
     margin-right: 8px;
   }
+.SUBSCRIBE:hover {
+ opacity: 0.8;
+}
+.SUBSCRIBE:active {
+opacity: 0.4;
+}
+
   .JOIN{
     background-color: white;
     border-color: rgb(41, 118, 211);
@@ -21,6 +28,13 @@
     width: 62px;
     border-radius: 2px;
     cursor: pointer;
+  }
+  .JOIN:hover {
+    background-color:rgb(41, 118, 211);
+    color: white;
+  }
+  .JOIN:active {
+    opacity: 0.6;
   }
 
   .tweet{
