@@ -10,6 +10,7 @@
     border-radius: 2px;
     cursor: pointer;
     margin-right: 8px;
+    transition: opacity 0.15;
   }
 .SUBSCRIBE:hover {
  opacity: 0.8;
@@ -28,6 +29,8 @@ opacity: 0.4;
     width: 62px;
     border-radius: 2px;
     cursor: pointer;
+    transition: background-color 1s, 
+    color 1s;
   }
   .JOIN:hover {
     background-color:rgb(41, 118, 211);
@@ -48,6 +51,12 @@ opacity: 0.4;
     margin-left: 8px;
     font-weight: bold;
     font-size: 15px;
+    translate: box-shadow 0.15s;
+    color: 0.15;
+  }
+
+  .tweet:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
   }
   .Uber{
     background-color: black;
@@ -104,4 +113,5 @@ border-style: solid;
 border-color: rgb(108, 117, 125);
 cursor: pointer;
   }
+
 </style>
